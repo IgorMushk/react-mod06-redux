@@ -20,4 +20,8 @@ const initialState = {
   const rootReducer = (state = initialState, action) => {
     return state;
   };
+  
+  //>>>
+  console.log(rootReducer());
+
   export const store = createStore(rootReducer);
